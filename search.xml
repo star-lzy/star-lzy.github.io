@@ -1,45 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>test</title>
-      <link href="/2020/07/24/test/"/>
-      <url>/2020/07/24/test/</url>
-      
-        <content type="html"><![CDATA[<p><img src="P2.jpg" alt="2"></p><p>图片</p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/2020/07/23/hello-world/"/>
-      <url>/2020/07/23/hello-world/</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to star’s world. This is a test.</p><p>小波曾说：“我们年轻时，每一年的经历都能写成一本书，后来只能写成小册子，再后来变成了薄薄的几页纸，现在就是这样一句话：写作，读书。”岁月的流变给予我们每个人不同的记忆，有些渐渐消逝，有些却像灯火，照人不断前行。而那些与阅读有关的美妙瞬间，也在不经意间成为了时光的注脚。</p><a id="more"></a><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">void</span>)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">cin</span> &gt;&gt; m &gt;&gt; n;</span><br><span class="line">    ans = n * m / <span class="number">3</span> + <span class="number">2</span>;</span><br><span class="line">    lim1 = n * m, lim2 = n * m + m / <span class="number">4</span> + <span class="number">5</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt;= n + <span class="number">1</span>; ++i)</span><br><span class="line">        spy[i][<span class="number">0</span>] = spy[i][m + <span class="number">1</span>] = <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt;= m + <span class="number">1</span>; ++i)</span><br><span class="line">        spy[<span class="number">0</span>][i] = spy[n + <span class="number">1</span>][i] = <span class="number">1</span>;</span><br><span class="line">    search(<span class="number">1</span>, <span class="number">1</span>);</span><br><span class="line"></span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="built_in">endl</span> &lt;&lt; ans &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt;= n; ++i)</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> j = <span class="number">1</span>; j &lt;= m; ++j)</span><br><span class="line">            <span class="built_in">cout</span> &lt;&lt; anx[i][j] &lt;&lt; (j == m ? <span class="string">'\n'</span> : <span class="string">' '</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="two"><a href="#two" class="headerlink" title="two"></a>two</h2><p>看看这个字</p><h3 id="three"><a href="#three" class="headerlink" title="three"></a>three</h3><h4 id="four"><a href="#four" class="headerlink" title="four"></a>four</h4><p>写个公式</p><p>$1+1=2$</p><script type="math/tex; mode=display">\frac 1 2</script><p>看天是天，但不是那个天。<br>看水是水，但不是那个水。</p><p>放张图片试试</p><p><img src="P1.jpg" alt="me"></p>]]></content>
-      
-      
+<search>
+  <entry>
+    <title>Hello World</title>
+    <url>/2020/07/23/hello-world/</url>
+    <content><![CDATA[<p>Welcome to star’s world. This is a test.</p>
+<p>小波曾说：“我们年轻时，每一年的经历都能写成一本书，后来只能写成小册子，再后来变成了薄薄的几页纸，现在就是这样一句话：写作，读书。”岁月的流变给予我们每个人不同的记忆，有些渐渐消逝，有些却像灯火，照人不断前行。而那些与阅读有关的美妙瞬间，也在不经意间成为了时光的注脚。</p>
+<a id="more"></a>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">void</span>)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">cin</span> &gt;&gt; m &gt;&gt; n;</span><br><span class="line">    ans = n * m / <span class="number">3</span> + <span class="number">2</span>;</span><br><span class="line">    lim1 = n * m, lim2 = n * m + m / <span class="number">4</span> + <span class="number">5</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt;= n + <span class="number">1</span>; ++i)</span><br><span class="line">        spy[i][<span class="number">0</span>] = spy[i][m + <span class="number">1</span>] = <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt;= m + <span class="number">1</span>; ++i)</span><br><span class="line">        spy[<span class="number">0</span>][i] = spy[n + <span class="number">1</span>][i] = <span class="number">1</span>;</span><br><span class="line">    search(<span class="number">1</span>, <span class="number">1</span>);</span><br><span class="line"></span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="built_in">endl</span> &lt;&lt; ans &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt;= n; ++i)</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> j = <span class="number">1</span>; j &lt;= m; ++j)</span><br><span class="line">            <span class="built_in">cout</span> &lt;&lt; anx[i][j] &lt;&lt; (j == m ? <span class="string">'\n'</span> : <span class="string">' '</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="two"><a href="#two" class="headerlink" title="two"></a>two</h2><p>看看这个字</p>
+<h3 id="three"><a href="#three" class="headerlink" title="three"></a>three</h3><h4 id="four"><a href="#four" class="headerlink" title="four"></a>four</h4><p>写个公式</p>
+<p>$1+1=2$</p>
+<script type="math/tex; mode=display">\frac 1 2</script><p>看天是天，但不是那个天。<br>看水是水，但不是那个水。</p>
+<p>放张图片试试</p>
+<p><img src="P1.jpg" alt="me"></p>
+]]></content>
       <categories>
-          
-          <category> test </category>
-          
+        <category>test</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> test </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-  
-  
+      <tags>
+        <tag>test</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>test</title>
+    <url>/2020/07/24/test/</url>
+    <content><![CDATA[<p><img src="P2.jpg" alt="2"></p>
+<p>图片</p>
+]]></content>
+  </entry>
 </search>
